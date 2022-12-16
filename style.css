@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+ 
+    background-color: rgb(16, 29, 24);
+}
+.container{
+position: relative;
+width:1000px;
+background-color: darkslateblue;
+}
+
+.imagebg{
+    
+    position: absolute;
+    text-align: center;
+   color: bisque;
+    background-repeat: no-repeat;
+    width: 700px;
+    height: 450px;
+ 
+    border-radius: 10px;
+    background-color: rgb(29, 68, 48);
+    top:100px;
+    left:300px;
+}
+
+.imagebg img{
+    width: 700px;
+    height: 250px;
+    margin-top: 40px;
+    
+}
+
+.audio{
+    position: absolute;
+      justify-content: center;
+  top:350px;
+  left: 200px;
+}
+
+audio:hover, audio:active{
+    transform: scale(1.05);
+}
+
